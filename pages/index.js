@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Form from "../components/form";
-import * as S from './styles'
+import * as S from './styles/styles'
 
 export default function Home() {
   return (
