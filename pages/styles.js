@@ -1,6 +1,7 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+    
 * {
   padding: 0;
   margin: 0;
@@ -8,14 +9,13 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 a {
-  
     color: inherit;
     text-decoration: none;
 }
 
 body, html {
   background: ${(props) => props.theme.color.background};
-  font-family: monospace;
+  font-family: sans-serif;
   height: 100vh;
 }
 `;
@@ -25,7 +25,7 @@ export const Wrapper = styled.div`
   height: 100vh;
   @media (max-width: 500px) {
     padding: 0;
-  }   
+  }
 `;
 
 export const Container = styled.div`
@@ -36,7 +36,7 @@ export const Container = styled.div`
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #1d1d1d;
+  background-color: #ffffff4d
   padding: 50px 0 0px 0;
   @media (max-width: 500px) {
     width: 100%;
@@ -48,11 +48,11 @@ export const Container = styled.div`
 export const Logo = styled.div`
   text-align: center;
   margin: 0 0 30px 0;
-
 `;
 
 export const LogoName = styled.h1`
-  font-family: monospace;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Kaushan Script', cursive;
   color: #fdfdfd;
   font-size: 2em;
 `;
