@@ -17,6 +17,8 @@ body, html {
   background: ${(props) => props.theme.color.background};
   font-family: sans-serif;
   height: 100vh;
+  background-image: url(https://i.pinimg.com/736x/cf/0e/d8/cf0ed8da8fb1b1108c6e51e3adac28c4.jpg);
+  background-size: cover;
 }
 `;
 
@@ -36,12 +38,13 @@ export const Container = styled.div`
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #ffffff4d
+  background-color: rgba(0, 0, 0, 0.33);
   padding: 50px 0 0px 0;
   @media (max-width: 500px) {
     width: 100%;
     height: 100vh;
     border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
   }
 `;
 
@@ -51,19 +54,21 @@ export const Logo = styled.div`
 `;
 
 export const LogoName = styled.h1`
-  font-family: 'Alegreya Sans', sans-serif;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Kaushan Script", cursive;
   color: #fdfdfd;
   font-size: 2em;
 `;
 
 export const GithubLink = styled.div`
   text-align: center;
-  bottom: 0;
   padding: 15px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
   a {
     margin: 10px;
-    color: #8d8d8d;
+    color: #ffffff;
   }
   @media (max-width: 500px) {
     bottom: 0;

@@ -47,7 +47,8 @@ export const ButtonSubmit = styled.button`
   position: absolute;
   font-weight: bold;
   &:disabled {
-    background: linear-gradient(-45deg, #6d3122, #5e3361);
+    background: linear-gradient(-45deg,#ad3049,#293da1);
+    color: #ddddd;
   }
 `;
 

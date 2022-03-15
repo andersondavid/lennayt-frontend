@@ -5,7 +5,7 @@ const theme = {
     primary: '#FF4500',
     secondary: '#00e5ff',
     white: '#fdfdfd',
-    background: 'linear-gradient(-45deg, #e96443, #904e95)'
+    background: 'linear-gradient(-45deg,#fc466b,#3f5efb)'
   },
 }
 

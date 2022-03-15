@@ -26,7 +26,7 @@ const Form = () => {
     fetch("https://lennayt-backend.herokuapp.com/start")
       .then((res) => console.log(res))
       .then(() => {
-        socket = io("https://lennayt-backend.herokuapp.com/");
+        socket = io("https://lennayt-backend.herokuapp.com");
 
         socket.on("connect", () => {
           console.log("connect");
