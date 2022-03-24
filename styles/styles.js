@@ -17,7 +17,7 @@ body, html {
   background: ${(props) => props.theme.color.background};
   font-family: sans-serif;
   height: 100vh;
-  background-image: url(https://i.pinimg.com/736x/cf/0e/d8/cf0ed8da8fb1b1108c6e51e3adac28c4.jpg);
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1000306331958684055/EEBA1F028C5E4C09A4094A4989533C1ADF1FFFF9/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
   background-size: cover;
 }
 `;

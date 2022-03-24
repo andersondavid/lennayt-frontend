@@ -6,6 +6,7 @@ export const LoadingContainer = styled.div`
   margin: 15px 0 0 0;
   transition: 05s;
   height: 70px;
+	margin-bottom: 15px
 `;
 
 export const LoadingEmoji = styled.span`

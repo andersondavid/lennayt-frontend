@@ -7,6 +7,13 @@ export const FormContainer = styled.div`
   margin: auto;
 `;
 
+export const VideoName = styled.p`
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 30px
+`
+
 export const BtnsContainer = styled.div`
   position: relative;
 `;
